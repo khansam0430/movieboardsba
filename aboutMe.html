@@ -10,6 +10,18 @@
             background-image: url(background.jpg);
             background-size: cover;
         }
+
+        table, th, td { 
+            border: 2px solid rgb(0, 0, 0); 
+            text-align: center;
+            color: white;
+            background-color: cornflowerblue;
+        } 
+          
+        td:hover { 
+            background-color: rgb(0, 0, 0); 
+        } 
+
     </style>
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -52,6 +64,27 @@
         <input type ="button" onclick="addTo()" value="Add Movies"> 
         <p style="color:cornflowerblue" id="movieList">Movies should appear here after adding!</p>
     </form>
+        <div>
+            <h2 style="text-align: center;">Popular List for 2021</h2>
+        <table style="width:100%; background-color: rgb(233, 233, 233); border:2px solid;" > 
+            <tr> 
+                <th>Popular Movies</th> 
+                <th>Movies Based off of Books</th> 
+            </tr> 
+            <tr> 
+                <td>Avengers: Infinity War</td> 
+                <td>Harry Potter</td> 
+            </tr> 
+            <tr> 
+                <td>The Quiet Place 2</td> 
+                <td>The Hobbit</td> 
+            </tr> 
+            <tr> 
+                <td>Tenet</td> 
+                <td>Hunger Games</td>  
+            </tr> 
+        </table> 
+    </div>
     </div>
 </section>
 </body>

@@ -6,7 +6,10 @@ users to be able to read a little synopsis of the movie to help them decide if t
 Users will also be able to log in (for a future feature: and add movies to their watchlist). Users will also be able
 to add in movie recommendations from the Add Movies page as well. 
 <br>
-  This Movie Board has 2 webpages that have CSS, HTML and Javascript completed.
+  This Movie Board has 3 webpages that have CSS, HTML and Javascript completed. Some specs include:
+  using HTML 5, Javascript (functions, for loop, arrays, conditional statements, etc), and CSS
+  with outside images, multiple different html tag, web fonts, drop down menu, regex validation in the log in page,
+  inline external and internal CSS, etc.
   On the homepage, you will see a list of movies and their descriptions posted under their images. 
   At the navbar, you will see a button for "Home" and a Button that says "Links".
   Upon hovering on the "Links" button, you will be able to select a Log in Page or an Add Movies page.

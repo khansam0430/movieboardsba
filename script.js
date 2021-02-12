@@ -1,7 +1,7 @@
 console.log('connected!');
 
 let moviesArray = [];
-let userInput= " ";
+var userInput= " ";
 
 function addTo(){
             

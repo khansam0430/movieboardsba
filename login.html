@@ -10,6 +10,17 @@
             background-image: url(background.jpg);
             background-size: cover;
         }
+
+        .centerH2{
+            margin-top: 10%;
+            border-radius: 50%;
+            /* background-color: cornflowerblue;  */
+            height: 200px; 
+            width: 200px;
+            margin-left: 35%;
+            text-align: center;
+            display: inline-block;
+        }
     </style>
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,6 +46,12 @@
         </div>
     </header>
     <div id="loginMain">
+        <div class="centerH2">
+            <h2 id="logTitle" style="text-align: center;">
+                Login Page</h2>
+               
+        <img src="./user.png" style="height: 120px;">
+        </div>
     <form class="login">
             <label for="name">Name: </label>
             <input type="text" id="name" name="name" placeholder="Enter your Name" pattern="[a-zA-Z0-9]+" minlength="4" maxlength="10">
