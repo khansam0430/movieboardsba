@@ -1,0 +1,122 @@
+#header{
+    color: rgb(22, 22, 22);
+    background-color: white;
+    text-align: center;
+}
+
+#container{
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    background-color: white;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+}
+.dropButton{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropLinks{
+    display: none;
+    position: absolute;
+    background-color: rgb(170, 167, 167);
+    width: 200px;
+}
+
+.dropLinks a{
+    color: white;
+    padding: 10px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropLinks {
+    display: block;
+}
+
+.dropLinks:hover {
+    background-color: rgb(125, 134, 151);
+}
+
+div > p {
+    color: white;
+}
+
+h1 {
+    font-style: italic;
+}
+
+#mainBody{
+    color: white;
+}
+
+#home{
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#moviePoster{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#loginMain{
+    background-color: silver;
+    height: 600px;
+    width: 40%;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+#loginPages{
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.login {
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    width: 250px;
+    font-size: 20px;
+    padding-left: 15px;
+    display: inline-block;
+  }
+
+  input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* margin-left: 20px; */
+    /* padding: 4px; */
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+  }
+
+  #formButn{
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    margin-left: 200px;
+  }
